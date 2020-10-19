@@ -9,7 +9,8 @@ function set_section_dim(){
         section_sep1 = document.getElementById("section-sep1"),
         wedding_info_section = document.getElementById("wedding-info"),
         section_sep2 = document.getElementById("section-sep2"),
-        registry_info_section = document.getElementById("registry-info");
+        registry_info_section = document.getElementById("registry-info"),
+        footer_section = document.getElementById("footer-section");
 
     var max_side= WIDTH,
         min_sie = HEIGHT;
@@ -22,7 +23,7 @@ function set_section_dim(){
         title_section.style.setProperty("height",(HEIGHT*1.1)+"px");
         title_section.style.setProperty("width",100+"%");
     
-        couple_info_section.style.setProperty("height",(HEIGHT*1.5)+"px");
+        couple_info_section.style.setProperty("height",(HEIGHT)+"px");
         couple_info_section.style.setProperty("width",100+"%");
     
         section_sep1.style.setProperty("height",(HEIGHT*0.3)+"px");
@@ -38,7 +39,9 @@ function set_section_dim(){
         registry_info_section.style.setProperty("height",(HEIGHT*1.2)+"px");
         registry_info_section.style.setProperty("width",100+"%");
 
-        
+        footer_section.style.setProperty("height",(HEIGHT*0.1)+"px");
+        footer_section.style.setProperty("width",100+"%");
+
 
 
 }
