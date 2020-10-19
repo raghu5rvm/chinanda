@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background :#ffdddd;
+}
+.main-div {
+    width: 100%;
+}
+.section2 {
+   background: #ffdddd;
+}
+.section-sep1 {
+    background-image:linear-gradient(180deg, #ffdddd, #ddffdd);
+}
+.section3 {
+    background: #ddffdd;
+ }
+.section-sep2 {
+    background-image:linear-gradient(180deg, #ddffdd,#ddddff);
+}
+.section4 {
+    background: #ddddff;
+}
+.section1 {
+    background-image: url("wedding_couple.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+}
+.title-block {
+    position: relative;
+    margin-top:30%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.about-person{
+    text-align: center;
+    font-family:'Lemonada', cursive;
+    font-size: 20px;
+}
+#names-block {
+font-size: 75px; 
+}
+#message-block{
+    font-size: 35px;
+}
+.white-text {
+    color:#f5f5f5;
+}
+
+
+.row {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.face-img {
+    border-radius:50%;
+    background: #ffdddd;
+    border-bottom:10px solid #ffcccc;
+    box-shadow: #ffaaaa 0px 10px 4px -4px;
+}
+
+.about-person {
+    border-color: black;
+    border-style: dashed;
+}
+.about-chit {
+    border-width: 0px 3px 3px 0px;
+    box-shadow: black 0px 0px 0px 0px;
+}
+.about-nanda {
+    border-width: 0px 0px 3px 3px;
+    box-shadow: black 0px 0px 0px 0px;
+}
+.registry-info > div {
+    height:100%;
+    align-items: center;
+    padding-top:15%;
+}
+
+#rsv-form, #gift-registry{
+    height: 100%;
+    padding: 2% 0%;
+}
+
+#rsv-form {
+    border-right: 3px solid #cdcdcd;
+}
+
+
+.form-field {
+    width:70%;
+    padding: 2% 2% 1% 2%;
+    margin: 3% 0%;
+    border: 2px solid #cdcdcd;
+    transition: all 0.6s;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color:#4d4d4d;
+    box-shadow: 0px;
+}
+
+.form-field:active , .form-field:focus , .form-field:focus-visible {
+    border-width: 0px 2px 4px 2px;
+    border-bottom: 8px solid #89d189;
+    box-shadow: #ccccff 0px 0px 5px 5px;
+    transition: all 0.6s;
+}
+.form-field:focus  {
+    border: 2px solid #ddddff;
+    border-bottom: 4px solid #89d189;
+    box-shadow: #ccccff 0px 0px 5px 5px;
+    transition: all 0.6s;
+}
+ .form-field:focus-visible {
+    border: 2px solid #ddddff;
+    border-bottom: 4px solid #89d189;
+    box-shadow: #ccccff 0px 0px 5px 5px;
+    transition: all 0.6s;
+}
+
+.radio-field {
+    height:5%;
+}
+.radio-opt {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: 3% 5%;
+    font-weight: bold;
+    color:#4d4d4d;
+}
+
+.response-btn {
+    width:34%;
+    padding:3% 2%;
+    margin:3% 0%;
+    border: 2px solid #aaaadd;
+    background-color: #4a4a4a;
+    font-family: 'Quicksand', sans-serif;
+    color:#dddddd;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.6s;
+}
+.response-btn:hover{
+    background:#5656ad;
+}
+
+.gift-registry {
+    padding-top:
+}
+.gift-icon {
+    padding:2%;
+    border:0px solid black;
+}
+.gift-form > button {
+    height:477px;
+    width:488px;
+    padding:5% 7%;
+    background:#ddddff;
+    border:0px;
+}
+.gift-form > button:hover {
+    border:0px;
+    background:#ddddff;
+}
+
+.gift-form > button:active {
+    border:0px;
+    background:#ddddff;
+}
+
+#giftbox-img {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+#giftbox-img:hover {
+    opacity: 1;
+    transition: all 0.7s;
+}
