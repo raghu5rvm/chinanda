@@ -11,6 +11,12 @@ function set_section_dim(){
         section_sep2 = document.getElementById("section-sep2"),
         registry_info_section = document.getElementById("registry-info"),
         footer_section = document.getElementById("footer-section");
+        
+        var maps_frame = document.getElementById("maps_frame");
+
+
+        maps_frame.setAttribute("width",parseInt(WIDTH*0.9));
+    
 
     var max_side= WIDTH,
         min_sie = HEIGHT;
