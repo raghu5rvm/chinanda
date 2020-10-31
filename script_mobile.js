@@ -12,6 +12,10 @@ function set_section_dim(){
         registry_info_section = document.getElementById("registry-info"),
         footer_section = document.getElementById("footer-section");
 
+    var maps_frame = document.getElementById("maps_frame");
+
+    maps_frame.setAttribute("width",WIDTH);
+
     var max_side= WIDTH,
         min_sie = HEIGHT;
     var section_height = HEIGHT,
@@ -78,6 +82,7 @@ function clear_form(){
 
 window.onload = function() {
     
+
     set_section_dim();
 
 }
