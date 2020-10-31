@@ -15,7 +15,7 @@ function set_section_dim(){
         var maps_frame = document.getElementById("maps_frame");
 
 
-        maps_frame.setAttribute("width",parseInt(WIDTH*0.9));
+        maps_frame.setAttribute("width",parseInt(WIDTH*0.5));
     
 
     var max_side= WIDTH,
